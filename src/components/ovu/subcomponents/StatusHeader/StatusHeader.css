@@ -1,0 +1,31 @@
+#status-header-container {
+    width: 100%;
+    height: 3em;
+    min-height: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 4em;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+#status-header-content {
+    width: calc(auto + 1em);
+    max-width: 30em;
+    height: auto;
+    font-size: 1.15em;
+    font-weight: 800;
+    /* margin-top: 5em; */
+}
+/* #status-header-content hr {
+    width: auto;
+    border: 0;
+    height: .15em;
+    background: #000;
+    margin-left: -.7em;
+    margin-right: -.7em;
+} */

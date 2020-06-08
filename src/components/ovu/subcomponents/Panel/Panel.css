@@ -1,0 +1,165 @@
+#ovu-panel-container {
+    width: 550px;
+    max-width: 550px;
+    height: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+}
+
+.ovu-panel-header {
+    width: 100%;
+    height: 5em;
+    max-height: 5em;
+    background-color: #2c2c32;
+    display: flex;
+    flex-direction: row;
+}
+
+.ovu-panel-header-mm-details {
+    width: 100%;
+    height: auto;
+    max-height: 5em;
+    font-size: calc(6px + 0.5vmin);
+    margin-left: 1em;
+    color: #ccc;
+    line-height: 1.75em;
+    display: flex;
+    align-items: center;
+}
+
+.ovu-name {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-weight: 700;
+}
+.ovu-title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.ovu-panel-video-img {
+    width: 300px;
+    height: 300px;
+    border: 0;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ovu-panel-video-content {
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+    min-height: 38em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 0.5em; */
+    /* margin-top: -.05em; */
+}
+.ovu-panel-header-img-container {
+    width: 5em;
+    height: auto;
+    max-height: 5em;
+    display: flex;
+    padding-left: 2.25em;
+    align-items: center;
+    justify-content: center;
+}
+.ovu-panel-header-img {
+    width: 3em;
+    height: auto;
+    max-height: 3em;
+}
+
+.ovu-panel-content-area {
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ovu-panel-content-mm-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+#ovu-panel-call-operations {
+    width: 100%;
+    height: 100%;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: -22em; */
+    margin-bottom: 15em; /* placeholder while transition isn't working. */
+    transition: margin-bottom 0.2s ease;
+}
+
+#ovu-panel-call-operations.is-operations-visible {
+    margin-bottom: 15em;
+}
+
+ .ovu-panel-call-buttons-call {
+     border: none;
+     outline: none;
+     border-radius: 3em;
+     width: 5em;
+     height: 5em;
+     max-height: 5em;
+     margin-top: 5em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #888;
+ }
+
+ .ovu-panel-call-buttons-end {
+     border: none;
+     outline: none;
+     border-radius: 3em;
+     width: 5em;
+     height: 5em;
+     max-height: 5em;
+     margin-top: 5em;
+     margin-left: 3em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #888;
+ }
+
+ .ovu-panel-status-text {
+     width: 65%;
+     font-size: 1.5em;
+     text-align: center;
+     line-height: 1.75em;
+     font-weight: 600;
+     margin: 2em .5em 3em .5em;
+     /* float: left; */
+ }
+
+ #ovu-panel-mobility-manager-nametag {
+     border: 1px solid;
+     border-radius: 1.5em;
+     background-color: #fff;
+     border-color: #ccc;
+     font-size: 0.65em;
+     text-transform: capitalize;
+     padding: 0.55em;
+ }
+
+ #ovu-panel-mobility-manager-nametag span {
+     font-weight: 300;
+ }

@@ -1,0 +1,93 @@
+  .video-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* necessary to have position:absolute work in child component */
+  }
+
+  .remoteMedia-container {
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .localMedia-container {
+    width: auto;
+    max-width: 8em;
+    height: auto;
+    max-height: 8em;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    border-radius: 0.5em;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+    -webkit-border-radius: 0.5em;
+  }
+
+  .localMedia {
+    min-width: 8.5em;
+    width: 8.5em;
+    height: 8.5em;
+    display: flex;
+    margin-left: 2em;
+    margin-right: 1.7em;
+    margin-top: 2em;
+    border-radius: 0.5em;;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+    -webkit-border-radius: 0.5em;
+  }
+
+  .remoteMedia {
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+    /* -webkit-border-radius: 0.5em; */
+  }
+
+  .remoteMedia img {
+	  width: 350px;
+	  height: 350px;
+	  border: 0;
+    margin-top: 10em;
+  }
+
+  #video-call-operations {
+    width: 100%;
+    height: 100%;;
+    min-height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: -22em; */
+    /* margin-bottom: 1em; placeholder while transition isn't working. */
+    transition: margin-bottom 0.2s ease;
+}
+
+.video-call-buttons {
+  border-radius: 3em;
+  width: 4em;
+  height: auto;
+  max-height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #888;
+  filter: drop-shadow(3px 5px 5px #999) grayscale(20%);
+}
+
+.video-call-buttons.call {
+}
+
+.video-call-buttons.end {
+  margin-left: 4.75em;
+}

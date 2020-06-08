@@ -1,0 +1,25 @@
+#fr-spacer-container {
+    width: 92%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    margin-top: 10em;
+}
+
+.fr-timeline-main-content {
+    width: 100%;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+}
+
+.fr-timeline-main-content img {
+    width: 100%;
+    max-width: 55em;
+    /* margin-left: 5em; */
+    height: auto;
+    display: flex;
+    margin-left: -2.55em;
+    margin-top: -1.5em;
+}

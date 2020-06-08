@@ -1,0 +1,16 @@
+#waiting-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#questions-wrapper {
+    margin: 0 0 -50em 0;
+    transition: margin 0.5s ease;
+}
+
+#questions-wrapper {
+    margin-bottom: 0;
+}

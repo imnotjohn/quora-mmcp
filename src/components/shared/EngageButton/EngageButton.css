@@ -1,0 +1,41 @@
+#engage-button-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: middle; */
+}
+
+#engage-button {
+    width: 48em;
+    height: 48em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* vertical-align: middle; */
+    border: 0;
+    border-radius: 29em;
+    outline: none;
+    background-color: #3f7bea;
+    filter: drop-shadow(.5em .5em .5em #888);
+}
+#engage-button img {
+    max-width: 10em;
+    width: 10em;
+    height: auto;
+    margin-bottom: 4em;
+}
+
+#engage-button-text {
+    width: 10em;
+    max-width: 10em;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.50em;
+    font-size: 2.75em;
+    color: #fff;
+    margin-bottom: 3em;
+}

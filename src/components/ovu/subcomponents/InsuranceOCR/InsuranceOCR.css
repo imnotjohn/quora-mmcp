@@ -1,0 +1,23 @@
+.insurance-ocr-main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 6em; */
+}
+
+.insurance-ocr-main-content img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.insurance-ocr-main-content button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #333;
+}

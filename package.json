@@ -1,0 +1,47 @@
+{
+  "name": "client-mmcp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "twilio": "^3.35.1",
+    "twilio-client": "^1.9.2",
+    "twilio-video": "^2.2.0"
+  },
+  "scripts": {
+    "start": "HTTPS=true PORT=4000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server --exec nodemon",
+    "dev": "run-p server start"
+  },
+  "proxy": "https://localhost:4001",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "faker": "^4.1.0",
+    "nodemon": "^1.19.3",
+    "npm-run-all": "^4.1.5",
+    "pino-colada": "^1.4.5"
+  }
+}

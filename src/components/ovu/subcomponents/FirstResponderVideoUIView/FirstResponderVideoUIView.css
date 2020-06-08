@@ -1,0 +1,26 @@
+#fr-video-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #101010;
+}
+
+#fr-video-container button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: 0;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #101010;
+}
+
+#fr-video-container img {
+    width: auto;
+    height: auto;
+    display: block;
+    max-height: 85vh;
+}

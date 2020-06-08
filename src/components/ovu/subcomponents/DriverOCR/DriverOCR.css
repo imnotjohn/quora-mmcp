@@ -1,0 +1,23 @@
+.driver-ocr-main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 6em; */
+}
+
+.driver-ocr-main-content img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.driver-ocr-main-content button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #333;
+}

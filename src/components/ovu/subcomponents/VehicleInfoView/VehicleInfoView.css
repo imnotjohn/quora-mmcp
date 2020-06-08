@@ -1,0 +1,21 @@
+.vehicle-main-content {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.vehicle-main-content img {
+    width: auto;
+    max-width: 42em;
+    max-height: 18em;
+    margin-left: -2.25em;
+    height: auto;
+    display: flex;
+}
+
+.vehicle-info-confirm-button {
+    background-color: #3f7bea !important;
+}

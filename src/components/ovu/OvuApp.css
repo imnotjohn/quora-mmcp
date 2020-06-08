@@ -1,0 +1,65 @@
+.OvuApp {
+  width: 100vw;
+  /* height: 100vh; */
+  height: 99.75vh; /* for iPad */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* hide scrollbar in browser */
+  overflow: hidden;
+}
+
+#header-container-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+#content-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#content-panel-wrapper {
+  width: 35em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  transition: margin 0.2s ease;
+  transition-delay: 0.05s;
+  margin-left: -35em;
+}
+#content-panel-wrapper.is-content-panel-visible {
+  margin-left: 0;
+}
+#content-area-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+#footer-container-wrapper {
+  width: 100%;
+  height: auto;
+  max-height: 5em;
+  display: flex;
+  margin-bottom: 0;
+  transition: margin-bottom .1s ease-out;
+}
+
+#footer-container-wrapper.is-footer-visible {
+  margin-bottom: -6em;
+}
+/* 
+#bottom-anchor {
+  width: 100%;
+  height: 1.025em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #444333;
+} */
